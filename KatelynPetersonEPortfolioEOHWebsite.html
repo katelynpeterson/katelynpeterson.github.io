@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Katelyn Peterson ePortfolio - Ephraim Orchard House Website Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">    
+    <link rel="stylesheet" type="text/css" href="KatelynPetersonEPortfolio%20Ephraim%20Orchard%20House%20Website.css">
+    <link rel="stylesheet" type="text/css" href="KatelynPetersonEPortfolio.css">
+    <link rel="stylesheet" type="text/css" href="">
+    <meta charset="utf-8">
+    </head>
+    
+        <body>
+            
+            <header>
+                <!--Logo-->
+                <a href="KatelynPetersonEPortfolioHome.html"> 
+                    <img alt="Katelyn Peterson logo" src="KP%20Logo_100X88px.png" class="logo">
+                </a>
+                
+                <!--Page Title-->
+                <div class="title">
+                    <h1>EPHRAIM ORCHARD HOUSE WEBSITE</h1>
+                </div>
+                
+                <!--Menu-->
+              <div class="menu">
+                  <div class="item">
+                      <a href="KatelynPetersonEPortfolioHome.html">Home</a>
+                    </div>
+                   <div class="item">
+                      <a href="KatelynPetersonEPortfolioContact.php">Contact</a>
+                       </div>
+                   
+                </div>
+            </header>
+            
+            <!--Content-->
+               
+            <div class="body">
+                          
+                <h4 class="welcome">Ephraim Orchard House Website</h4>
+                <p>This is a website that I put together using <a href="https://wordpress.org/about/" ><b>WordPress</b></a> for a house that young men can rent while they are studying at Snow College.</p>
+                
+                <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 4</div>
+                  <img src="Ephraim%20Orchard%20House%20Website%20photo%2001.PNG" style="width:100%">
+                  <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 4</div>
+                  <img src="Ephraim%20Orchard%20House%20Website%20photo%2002.PNG" style="width:100%">
+                  <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 4</div>
+                  <img src="Ephraim%20Orchard%20House%20Website%20photo%2003.PNG" style="width:100%">
+                  <div class="text">Caption Three</div>
+                </div>
+                    
+                    <div class="mySlides fade">
+                  <div class="numbertext">4 / 4</div>
+                  <img src="Ephraim%20Orchard%20House%20Website%20photo%2004.PNG" style="width:100%">
+                  <div class="text">Caption Four</div>
+                </div>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+                    <script>
+                        var slideIndex = 0;
+                        showSlides();
+
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                           slides[i].style.display = "none";  
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) {slideIndex = 1}    
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";  
+                        dots[slideIndex-1].className += " active";
+                        setTimeout(showSlides, 4000); // Change image every 4 seconds
+                    }
+                    </script>
+
+                
+                <p>I enjoyed making this website. It was my first experience using a template to create a site. Feel free to visit and explore the information and features. <a href="http://ephraimorchardhouse.x10host.com/" ><b>Ephraim Orchard House</b></a> is a house for young men attending Snow College. It is a very simple site, but is functional.</p>
+            </div>
+            
+           
+    <footer>
+        <!--Social Media Weblinks-->
+        <div class="weblinks">
+        
+           <a href="https://www.facebook.com/katelyn.nielsen.549">
+                <img alt="facebook logo" src="facebook%20button_25X25.png">
+            </a>
+            
+            <a href="https://github.com/katelynpeterson">
+                <img alt="github logo" src="github%20button_25X25.png">
+            </a>
+
+            <a href="https://www.linkedin.com/in/katelyn-peterson01">
+                <img alt="linkedIn logo" src="linkedIn%20button_25X25px.png">
+            </a>
+        </div>    
+        <!--Copyright-->
+        <h6><a href="KatelynPetersonEPortfolioLogin.php">&copy;</a> 2018 KPeterson <br/> All rights reserved</h6>
+    </footer>
+    </body>
+</html>
