@@ -1,0 +1,13 @@
+/*CSS SkeduleMe*/
+
+img.prototype{
+    max-width: 400px;
+}
+
+#listofprototypepics li{
+    display: inline-block;
+}
+
+img.waad{
+    max-width: 500px;
+}

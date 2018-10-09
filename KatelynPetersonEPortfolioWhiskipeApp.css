@@ -1,11 +1,9 @@
 /*CSS Whiskipe App*/
 
-td.items{
-  
-    padding: 20px;
+#listofwhiskipepics li{
+    display: inline-block;
 }
 
-div.table{
-    
-    padding: 10px;
+img.pics{
+    max-height: 400px;
 }
