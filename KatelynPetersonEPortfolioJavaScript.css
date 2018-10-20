@@ -1,0 +1,9 @@
+/*CSS JavaScript*/
+
+#listOfJSPics li{
+    display: inline-block;
+}
+
+img.pics{
+    max-height: 400px;
+}
