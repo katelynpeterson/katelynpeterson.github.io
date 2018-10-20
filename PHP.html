@@ -3,7 +3,7 @@
     <head>
         <title>Katelyn Peterson ePortfolio - Whiskipe App</title>
     <link rel="stylesheet" type="text/css" href="KatelynPetersonEPortfolio.css">
-    <link rel="stylesheet" type="text/css" href="KatelynPetersonEPortfolioWhiskipeApp.css">
+    <link rel="stylesheet" type="text/css" href="PHP.css">
     <meta charset="utf-8">
     </head>
     
@@ -37,15 +37,55 @@
             <div class="body">
                        
             
-                <h4 class="welcome">Upload File &amp; Add to Database</h4>
-                <p></p>
+                <h4 class="welcome">Contact Form</h4>
+                <p>This form is intended to have interested parties send comments, feedback, and questions to the author of the site via email. There is input validation for the fields, so they only accept certain characters. The required fields cannot be left empty or they throw an error. After the submit button is pressed, the information is packaged and sent to the author’s email with a subject heading indicating the message content and sender.</p>
                 
                 <div class="col-12">
-                    <table>
+                    <table id="listOfPHPPics">
                         
-                        <!--<tr><td class="col-12"><img alt="whiskipe sketch" src="whiskipeSketch01.png"></td></tr>
-                        <tr><td class="col-12"><img alt="whiskipe sketch" src="whiskipeSketch02.png"></td></tr>
-                        <tr><td class="col-12"><img alt="whiskipe sketch" src="whiskipeSketch03.png"></td></tr>-->
+                        <tr>
+                            <td><p>Contact form with placeholders</p><img class="pic" alt="php contact form" src="php_contactform.PNG"></td>
+                            <td><p>Required fields show errors when not filled</p><img class="pic" alt="php contact form with required message" src="php_contactform02.PNG"></td>
+                            <td><p>Successfully filled-out form</p><img class="pic" alt="php contact form completely filled out" src="php_contactform01.PNG"></td>
+                            
+                        </tr>
+                        
+                        <tr>
+                            <td><p>Field input validation</p><img class="pic" alt="php code for field input validation" src="phpcode%20contact%20form%20input%20validation.PNG"></td>
+                            <td><p>Embedded PHP in HTML form for fields</p><img class="pic" alt="php code for embedded PHP in HTML form for fields" src="phpcode%20contact%20form.PNG"></td>
+                            <td><p>Package message and send to author’s email</p><img class="pic" alt="php code for sending the message" src="php%20send%20message.PNG"></td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <h4 class="welcome">Upload File</h4>
+                <p>Function: Give a project name to be associated with the file, add a file, and upload the image. A call is made to the PHP script for the database via POST.</p>
+                
+                <div class="col-12">
+                    <table id="listOfPHPPics">
+                        
+                        <tr>
+                            <td><img class="pic" alt="php diagram for uploading files and sending to the database script" src="php_diagram_addFile.PNG"></td>
+                            <td><p>Validate input for the file name</p><img class="pic" alt="php code to validate input in form" src="phpcode_uploadFile02.PNG"></td>
+                            <td><p>Get input from user</p><img class="pic" alt="code for getting user inputs" src="phpcode_uploadFile03.PNG"></td>
+                            <td><p>Send data to Database script via POST</p><img class="pic" alt="php code for sending file to database script" src="phpcode_uploadFile01.PNG"></td>
+                            
+                        </tr>
+                    </table>
+                </div>
+            
+                
+                <h4 class="welcome">Add File to Database</h4>
+                <p>This is a code sample of using php to connect a webpage to a database. The script takes the posted variables and files given and adds them to the database. Eventually the files will be used to populate new webpages dynamically.</p>
+                
+                <div class="col-12">
+                    <table id="listOfPHPPics">
+                        
+                        <tr>
+                            <td><img class="pic" alt="php diagram of connecting to database and adding a file" src="php_diagram_dbConnection.PNG"></td>
+                            <td><p>PHP Code for preparing files and inserting them into the database</p><img class="pic" alt="php code for connecting to database and adding file" src="php%20connect%20to%20db%20and%20send%20files.PNG"></td>
+                                                
+                        </tr>
                     </table>
                 </div>
             </div>

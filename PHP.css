@@ -1,11 +1,11 @@
-/*CSS JavaScript*/
+/*CSS PHP*/
 
-#listOfJSPics tr td{
+#listOfPHPPics tr td{
     padding: 20px;
     display: inline-table;
 }
 
-img.pics{
+img.pic{
     max-height: 400px;
     max-width: 600px;
 }
